@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
+
+:root {
+  --text-primary: #f7d06d;
+  --text-hover: #c28e0a;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body {
+  margin: 0;
+  height: 150%;
+  text-align: center;
+  background-color: #6d84f7;
+  background-image: linear-gradient(
+    135deg,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.5)
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Raleway, sans-serif;
+}
+#image {
+  width: 60%;
+  height: 60%;
+}
+figure {
+  width: 20em;
+  height: 20em;
+  background: white;
+  display: flex;
+  border: 5px solid black;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 10px 10px;
+}
+figcaption {
+  text-align: center;
+}
+
+ul {
+  list-style-type: square;
+}
+
+#tribute-info {
+  background-color: white;
+  padding: 1em;
+  border: 5px solid black;
+  box-shadow: 10px 10px;
+  max-width: 40em;
+  text-align: left;
+  line-height: 1.5;
+}
+
+#tribute-link {
+  margin-top: 1em;
+}
+.text-primary {
+  color: var(--text-primary);
+  text-shadow: 3px 3px 5px black;
+}
+p a {
+  color: var(--text-primary);
+  text-decoration: none;
+}
+p a:hover {
+  color: var(--text-hover);
+}
